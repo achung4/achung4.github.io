@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -124,6 +124,37 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 5px 0;
 }
 
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+
+}
+#navigation a {
+	text-decoration: none;
+	font-size: 16px;
+}
+#projects ul {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#projects li {
+    display: inline;
+	text-align: center;
+	padding: 1em;
+}
+
+#projects a {
+	text-decoration: none;
+	font-size: 36px;
+}
+
 dt {
   font-style: italic;
   font-weight: bold;
@@ -134,7 +165,7 @@ ul li {
 }
 
 ul li:before {
-  content: ">>";
+  /*content: ">>";*/
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #b5e853;
@@ -227,7 +258,7 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  color: #b5e853;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
